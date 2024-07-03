@@ -36,8 +36,7 @@ The proposed 'Mars' Master Calendar' consists of 13 months, with 12 months havin
 10\. Month 10: 51 sols  
 11\. Month 11: 51 sols  
 12\. Month 12: 51 sols  
-13\. Month 13: 52 sols  
-14\. Intercalary Day: 1 sol  
+13\. Month 13: 52 sols  (  Intercalary Day: 1 sol  )
 
 ## Week Structure
 
@@ -47,7 +46,8 @@ To ensure uniformity, each Martian month with 51 sols is divided into 3 weeks, e
 
 1\. Week 1: Sols 1 to 17  
 2\. Week 2: Sols 18 to 34  
-3\. Week 3: Sols 35 to 51  
+3\. Week 3: Sols 35 to 51 (52 on Month 13)
+
 
 ## Rest Days
 
