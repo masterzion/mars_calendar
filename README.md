@@ -57,11 +57,22 @@ In each 17-sol week, rest days are designated on the 8th, 9th, 15th, 16th, and 1
 
 The intercalary day is calculated to account for the remaining 0.6 sol in the Martian year. Each Martian sol consists of 1485 Martian minutes. The intercalary period of 0.6 sol translates to exactly 891 Martian minutes, which can be used as a special intercalary day.
 
+
+
+![mars calendar](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png?raw=true)
+
+
 ## Conclusion
 
 The proposed 'Mars' Master Calendar' provides a practical and consistent approach to timekeeping on Mars, aligning with the planet's unique rotational and orbital characteristics. By dividing the Martian sol into 27 hours of 55 minutes each, and structuring the calendar into 13 months with an intercalary day, the calendar maintains regularity and avoids fractional time periods. This proposal aims to facilitate future human activities and settlements on Mars, marking the beginning of a new interplanetary civilization with the first human settlement landing on Mars. Just as various cultures on Earth navigate multiple calendar systems, it will be natural for Martian settlers to use both the Martian and Earth calendars.
 
 Jairo Moreno de Barros Junior
+
+
+
+
+## Using the script tools
+
 ```
 $ python3.11 marscalendar_terminal.py
   MONTH 01 ############################################################   MONTH 02 ############################################################
