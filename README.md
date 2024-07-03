@@ -101,8 +101,5 @@ Difference in sols:  -0.9732442958064231
 Remaining sols:  663.0267557041935
 Martian Date (DD/MM/Y*):52/13/-1
 
-
-
 ```
 
-![mars calendar](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png?raw=true)
