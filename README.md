@@ -36,8 +36,7 @@ The proposed 'Mars' Master Calendar' consists of 13 months, with 12 months havin
 10\. Month 10: 51 sols  
 11\. Month 11: 51 sols  
 12\. Month 12: 51 sols  
-13\. Month 13: 52 sols  
-14\. Intercalary Day: 1 sol  
+13\. Month 13: 52 sols  (  Intercalary Day: 1 sol  )
 
 ## Week Structure
 
@@ -47,7 +46,8 @@ To ensure uniformity, each Martian month with 51 sols is divided into 3 weeks, e
 
 1\. Week 1: Sols 1 to 17  
 2\. Week 2: Sols 18 to 34  
-3\. Week 3: Sols 35 to 51  
+3\. Week 3: Sols 35 to 51 (52 on Month 13)
+
 
 ## Rest Days
 
@@ -57,13 +57,60 @@ In each 17-sol week, rest days are designated on the 8th, 9th, 15th, 16th, and 1
 
 The intercalary day is calculated to account for the remaining 0.6 sol in the Martian year. Each Martian sol consists of 1485 Martian minutes. The intercalary period of 0.6 sol translates to exactly 891 Martian minutes, which can be used as a special intercalary day.
 
+
+
+![mars calendar](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png?raw=true)
+
+
 ## Conclusion
 
 The proposed 'Mars' Master Calendar' provides a practical and consistent approach to timekeeping on Mars, aligning with the planet's unique rotational and orbital characteristics. By dividing the Martian sol into 27 hours of 55 minutes each, and structuring the calendar into 13 months with an intercalary day, the calendar maintains regularity and avoids fractional time periods. This proposal aims to facilitate future human activities and settlements on Mars, marking the beginning of a new interplanetary civilization with the first human settlement landing on Mars. Just as various cultures on Earth navigate multiple calendar systems, it will be natural for Martian settlers to use both the Martian and Earth calendars.
 
 Jairo Moreno de Barros Junior
+
+
+
+
+## Using the script tools
+
 ```
-python3.11 marscalendar_terminal.py 
+$ python3.11 marscalendar_terminal.py
+  MONTH 01 ############################################################   MONTH 02 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 03 ############################################################   MONTH 04 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 05 ############################################################   MONTH 06 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 07 ############################################################   MONTH 08 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 09 ############################################################   MONTH 10 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 11 ############################################################   MONTH 12 ############################################################
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]   (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17]
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]   (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34]
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]   (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51]
+  MONTH 13 ############################################################ 
+  (WEEK 1) 01 02 03 04 05 06 07 [08] [09] 10 11 12 13 14 [15] [16] [17] 
+  (WEEK 2) 18 19 20 21 22 23 24 [25] [26] 27 28 29 30 31 [32] [33] [34] 
+  (WEEK 3) 35 36 37 38 39 40 41 [42] [43] 44 45 46 47 48 [49] [50] [51] [52] 
+
+$ python3.11 earth_to_mars.py 
+Enter the landing date on Mars (DD/MM/YYYY): 04/11/1978
+Enter the query date on Earth (DD/MM/YYYY): 03/11/1978
+-0.9732442958064231
+Difference in sols:  -0.9732442958064231
+Remaining sols:  663.0267557041935
+Martian Date (DD/MM/Y*):52/13/-1
+
 ```
 
-![mars calendar](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png?raw=true)
