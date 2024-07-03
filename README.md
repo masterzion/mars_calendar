@@ -64,4 +64,4 @@ The proposed 'Mars' Master Calendar' provides a practical and consistent approac
 Jairo Moreno de Barros Junior
 
 
-![MARS CALENDAR]([http://url/to/img.png](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png))
+![MARS CALENDAR](http://url/to/img.png](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png)
