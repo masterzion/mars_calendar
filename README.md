@@ -62,3 +62,6 @@ The intercalary day is calculated to account for the remaining 0.6 sol in the Ma
 The proposed 'Mars' Master Calendar' provides a practical and consistent approach to timekeeping on Mars, aligning with the planet's unique rotational and orbital characteristics. By dividing the Martian sol into 27 hours of 55 minutes each, and structuring the calendar into 13 months with an intercalary day, the calendar maintains regularity and avoids fractional time periods. This proposal aims to facilitate future human activities and settlements on Mars, marking the beginning of a new interplanetary civilization with the first human settlement landing on Mars. Just as various cultures on Earth navigate multiple calendar systems, it will be natural for Martian settlers to use both the Martian and Earth calendars.
 
 Jairo Moreno de Barros Junior
+
+
+![MARS CALENDAR]([http://url/to/img.png](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png))
