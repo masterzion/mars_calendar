@@ -63,7 +63,17 @@ The proposed 'Mars' Master Calendar' provides a practical and consistent approac
 
 Jairo Moreno de Barros Junior
 ```
-python3.11 marscalendar_terminal.py 
+$python3.11 marscalendar_terminal.py
+$ python3.11 earth_to_mars.py 
+Enter the landing date on Mars (DD/MM/YYYY): 04/11/1978
+Enter the query date on Earth (DD/MM/YYYY): 03/11/1978
+-0.9732442958064231
+Difference in sols:  -0.9732442958064231
+Remaining sols:  663.0267557041935
+Martian Date (DD/MM/Y*):52/13/-1
+
+
+
 ```
 
 ![mars calendar](https://github.com/masterzion/mars_calendar/blob/main/Screenshot_20240703_025513.png?raw=true)
